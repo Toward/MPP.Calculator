@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3c4f3ba4-b2b5-4a68-849c-afae0900fe2a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/CalculatorService/service/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Calculator.wsdl" MetadataType="Wsdl" ID="f23e76d8-1e60-4c88-978b-cb723905d0ed" SourceId="1" SourceUrl="http://localhost:8000/CalculatorService/service/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="ecad6e5c-44c9-49bc-bd81-43a6860ca4c1" SourceId="1" SourceUrl="http://localhost:8000/CalculatorService/service/mex" />
+    <MetadataFile FileName="Calculator.xsd" MetadataType="Schema" ID="b05c0b8b-90b3-4a75-9ced-a77fa08ba1c8" SourceId="1" SourceUrl="http://localhost:8000/CalculatorService/service/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="1131c08c-22c7-4e43-83f6-c5d0607b6306" SourceId="1" SourceUrl="http://localhost:8000/CalculatorService/service/mex" />
+    <MetadataFile FileName="CalculatorService.Contracts.xsd" MetadataType="Schema" ID="41bf4c6f-9310-4d6d-b02f-098930ac40cb" SourceId="1" SourceUrl="http://localhost:8000/CalculatorService/service/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
